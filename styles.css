@@ -1,0 +1,77 @@
+body{
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+    
+}
+.snag{
+    background-color: rgb(22, 22, 65);
+    
+}
+.main{
+    display: flex;
+    padding: 30px 7em 30px 5em;
+   
+    color: aliceblue;
+}
+
+
+p{
+    font-size: small;
+}
+.first{
+  
+    padding-right: 3em;
+
+}
+.second{
+    width: 17em;
+}
+.third{
+    width: 17em;
+}
+.fourth{
+    width: 17em;
+}
+.five{
+    width: 17em;
+}
+hr{
+    
+    color: rgb(38, 121, 69);
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    color: aliceblue;
+}
+
+.copyright-text{
+    padding-left: 5em; 
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+@media only screen and (max-width: 1056px) {
+ .main{
+    display: flex;
+    flex-direction: column;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+}
+.symbols{
+    text-align: center;
+}
+
+}
